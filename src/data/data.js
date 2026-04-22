@@ -1,0 +1,105 @@
+const data = {
+  categories: ["All Coffee", "Machiato", "Latte", "Americano"],
+  coffees: [
+    {
+      id: 1,
+      name: "Caffe Mocha",
+      type: "Deep Foam",
+      price: 4.53,
+      rating: 4.8,
+      reviews: 230,
+      category: "Latte",
+      image: require("../../assets/images/c1.png"),
+      description:
+        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk. The foam is thick and creamy, perfect for a cozy morning or afternoon break.",
+      sizes: ["S", "M", "L"],
+      tags: ["Ice", "Hot"],
+    },
+    {
+      id: 2,
+      name: "Flat White",
+      type: "Espresso",
+      price: 3.53,
+      rating: 4.8,
+      reviews: 180,
+      category: "Machiato",
+      image: require("../../assets/images/c2.png"),
+      description:
+        "A flat white is an espresso-based drink with steamed milk from the bottom of a jug. It has more coffee relative to milk than a latte, offering a stronger flavour with velvety microfoam.",
+      sizes: ["S", "M", "L"],
+      tags: ["Hot"],
+    },
+    {
+      id: 3,
+      name: "Cappuccino",
+      type: "Light Foam",
+      price: 4.0,
+      rating: 4.7,
+      reviews: 320,
+      category: "All Coffee",
+      image: require("../../assets/images/c3.png"),
+      description:
+        "A classic cappuccino made with equal parts espresso, steamed milk, and milk foam. Rich, bold and perfectly balanced — the gold standard of Italian coffee culture.",
+      sizes: ["S", "M", "L"],
+      tags: ["Hot"],
+    },
+    {
+      id: 4,
+      name: "Americano",
+      type: "Black Coffee",
+      price: 2.99,
+      rating: 4.6,
+      reviews: 410,
+      category: "Americano",
+      image: require("../../assets/images/c4.png"),
+      description:
+        "A simple yet powerful blend: espresso shots diluted with hot water. Full-bodied flavour, clean finish. The everyday workhorse of the coffee world, served black and beautiful.",
+      sizes: ["S", "M", "L"],
+      tags: ["Ice", "Hot"],
+    },
+    {
+      id: 5,
+      name: "Caramel Latte",
+      type: "Sweet Cream",
+      price: 4.99,
+      rating: 4.9,
+      reviews: 275,
+      category: "Latte",
+      image: require("../../assets/images/c5.png"),
+      description:
+        "Velvety steamed milk meets bold espresso, swirled with house-made caramel sauce. Sweet, smooth, and indulgent — this is the latte that converts non-coffee drinkers.",
+      sizes: ["S", "M", "L"],
+      tags: ["Ice", "Hot"],
+    },
+    {
+      id: 6,
+      name: "Cold Brew",
+      type: "Iced Black",
+      price: 3.75,
+      rating: 4.8,
+      reviews: 190,
+      category: "Americano",
+      image: require("../../assets/images/c1.png"),
+      description:
+        "Steeped for 12 hours in cold water, our cold brew delivers a smooth, low-acid coffee experience with natural sweetness. Served over ice for maximum refreshment.",
+      sizes: ["S", "M", "L"],
+      tags: ["Ice"],
+    },
+  ],
+  courier: {
+    name: "Brooklyn Simmons",
+    role: "Personal Courier",
+    avatar: require("../../assets/images/coffe.png"),
+  },
+  deliveryAddress: {
+    name: "Jl. Kpg Sutoyo",
+    detail: "Kpg. Sutoyo No. 620, Bilzen, Tanjungbalai.",
+  },
+  promoBanner: {
+    image: require("../../assets/images/Banner.png"),
+    title: "Buy one get\none FREE",
+    label: "Promo",
+  },
+};
+
+export default data;
