@@ -7,4 +7,4 @@
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-<video controls src="Ghi Màn hình 2026-04-22 lúc 19.05.07.mov" title="Title"></video>
+https://drive.google.com/file/d/1Im6Cdv9NWMkXnAm7HVtFTIK-kn27cPRO/view?usp=sharing
